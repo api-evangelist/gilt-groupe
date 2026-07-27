@@ -1,0 +1,165 @@
+generated: '2026-07-19'
+method: searched
+source: Maven Central (search.maven.org) groupId com.gilt
+type: Packages
+name: Gilt Groupe Open-Source Packages
+description: >-
+  First-party open-source JVM/Scala libraries published by Gilt Groupe's
+  engineering team to Maven Central under the com.gilt groupId. These are
+  general-purpose foundation and infrastructure libraries (the "gfc" Gilt
+  Foundation Classes, Handlebars templating, AWS helpers, sbt plugins), not
+  clients for a hosted Gilt API. Gilt operated no public REST API at the time
+  of this pass; its historical developer.gilt.com API and github.com/gilt
+  organization are both retired.
+registries:
+- registry: Maven Central
+  groupId: com.gilt
+  url: https://search.maven.org/search?q=g:com.gilt
+  artifact_count: 143
+  base_artifacts: 50
+packages:
+- name: gfc-util
+  coordinates: com.gilt:gfc-util
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - core utility library.
+  url: https://search.maven.org/artifact/com.gilt/gfc-util_2.12
+- name: gfc-concurrent
+  coordinates: com.gilt:gfc-concurrent
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - concurrency helpers.
+  url: https://search.maven.org/artifact/com.gilt/gfc-concurrent_2.12
+- name: gfc-time
+  coordinates: com.gilt:gfc-time
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - time measurement utilities.
+  url: https://search.maven.org/artifact/com.gilt/gfc-time_2.12
+- name: gfc-timeuuid
+  coordinates: com.gilt:gfc-timeuuid
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - time-based UUID generation.
+  url: https://search.maven.org/artifact/com.gilt/gfc-timeuuid_2.12
+- name: gfc-id
+  coordinates: com.gilt:gfc-id
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - typed identifier support.
+  url: https://search.maven.org/artifact/com.gilt/gfc-id_2.12
+- name: gfc-logging
+  coordinates: com.gilt:gfc-logging
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - logging helpers.
+  url: https://search.maven.org/artifact/com.gilt/gfc-logging_2.12
+- name: gfc-collection
+  coordinates: com.gilt:gfc-collection
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - collection utilities.
+  url: https://search.maven.org/artifact/com.gilt/gfc-collection_2.12
+- name: gfc-guava
+  coordinates: com.gilt:gfc-guava
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - Google Guava integration.
+  url: https://search.maven.org/artifact/com.gilt/gfc-guava_2.12
+- name: gfc-crypto
+  coordinates: com.gilt:gfc-crypto
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - cryptography helpers.
+  url: https://search.maven.org/artifact/com.gilt/gfc-crypto_2.12
+- name: gfc-semver
+  coordinates: com.gilt:gfc-semver
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - semantic versioning parser.
+  url: https://search.maven.org/artifact/com.gilt/gfc-semver_2.12
+- name: gfc-cache
+  coordinates: com.gilt:gfc-cache
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - caching abstractions.
+  url: https://search.maven.org/artifact/com.gilt/gfc-cache
+- name: gfc-aws-kinesis
+  coordinates: com.gilt:gfc-aws-kinesis
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - AWS Kinesis client helpers.
+  url: https://search.maven.org/artifact/com.gilt/gfc-aws-kinesis_2.12
+- name: gfc-aws-s3
+  coordinates: com.gilt:gfc-aws-s3
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - AWS S3 helpers.
+  url: https://search.maven.org/artifact/com.gilt/gfc-aws-s3
+- name: gfc-aws-cloudwatch
+  coordinates: com.gilt:gfc-aws-cloudwatch
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Gilt Foundation Classes - AWS CloudWatch helpers.
+  url: https://search.maven.org/artifact/com.gilt/gfc-aws-cloudwatch_2.12
+- name: handlebars-scala
+  coordinates: com.gilt:handlebars-scala
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Scala implementation of the Handlebars templating language.
+  url: https://search.maven.org/artifact/com.gilt/handlebars-scala
+- name: jerkson
+  coordinates: com.gilt:jerkson
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Scala JSON library (Jackson wrapper), maintained fork.
+  url: https://search.maven.org/artifact/com.gilt/jerkson
+- name: lib-lucene-sugar
+  coordinates: com.gilt:lib-lucene-sugar
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Syntactic sugar for building Apache Lucene indexes.
+  url: https://search.maven.org/artifact/com.gilt/lib-lucene-sugar
+- name: opm
+  coordinates: com.gilt:opm
+  ecosystem: maven
+  language: scala
+  official: true
+  description: Object Property Mapper - versioned object storage.
+  url: https://search.maven.org/artifact/com.gilt/opm
+- name: sbt-dependency-graph-sugar
+  coordinates: com.gilt:sbt-dependency-graph-sugar
+  ecosystem: maven
+  language: scala
+  official: true
+  description: sbt plugin for dependency graph visualization.
+  url: https://search.maven.org/artifact/com.gilt/sbt-dependency-graph-sugar
+- name: sbt-codedeploy
+  coordinates: com.gilt:sbt-codedeploy
+  ecosystem: maven
+  language: scala
+  official: true
+  description: sbt plugin for AWS CodeDeploy.
+  url: https://search.maven.org/artifact/com.gilt/sbt-codedeploy
+notes: >-
+  50 distinct base artifacts observed under com.gilt (143 total across Scala
+  2.11/2.12 cross-builds and RC variants); a representative subset is listed
+  here. Many carry historical/last-published dates - these are legacy
+  open-source libraries, not an actively supported SDK line.

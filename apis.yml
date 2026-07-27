@@ -1,8 +1,30 @@
 aid: gilt-groupe
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gilt-groupe.png
 name: Gilt Groupe
-description: 'Gilt Groupe is a company surfaced as a portfolio company of matrix-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Gilt Groupe is a New York-based online retailer that pioneered the "flash
+  sale" model in the United States, offering limited-time, members-only sales
+  of discounted designer fashion, luxury goods, home items, and travel. Founded
+  in 2007, Gilt was acquired by Hudson's Bay Company in 2016 and subsequently
+  sold to Rue La La in 2018, forming Rue Gilt Groupe; the gilt.com storefront
+  remains operational. Gilt's engineering team was an influential early adopter
+  of Scala and microservices and open-sourced roughly fifty JVM libraries (the
+  "gfc" Gilt Foundation Classes, Handlebars-Scala, sbt plugins) to Maven Central
+  under the com.gilt groupId. Gilt operated no public REST API at the time of
+  this enrichment pass - its historical developer.gilt.com API and the
+  github.com/gilt organization are both retired. Surfaced as a portfolio company
+  of Matrix Partners and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/gilt-groupe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +34,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Retail
+- E-commerce
+- Fashion
+- Flash Sale
+- Scala
+- Open Source
 apis: []
+common:
+- type: DomainSecurity
+  url: security/gilt-groupe-domain-security.yml
+- type: Website
+  url: https://www.gilt.com
+- type: Packages
+  url: packages/gilt-groupe-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
