@@ -50,7 +50,7 @@ tags:
 - Fashion
 - Flash Sale
 - Scala
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Consumer
@@ -60,6 +60,7 @@ tags_raw:
 - Flash Sale
 - Scala
 - Open Source
+- Open-Source
 apis: []
 common:
 - type: DomainSecurity
